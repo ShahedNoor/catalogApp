@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -9,12 +8,12 @@ class HomePage extends StatelessWidget {
     final int age = 20;
     return Scaffold(
       appBar: AppBar(
-        title: Text("Catalog App"),
+        title: Text("Catelog App"),
       ),
       drawer: Drawer(),
       body: Center(
         child: Container(
-          child: Text("My name is $name Age is $age"),
+          child: Text("Hello my name is $name Age is $age"),
         ),
       ),
     );
